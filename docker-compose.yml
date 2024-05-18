@@ -1,0 +1,20 @@
+services:
+  minecraft:
+    image: itzg/minecraft-server
+    tty: true
+    stdin_open: true
+    ports:
+      - "25565:25565"
+      - "24454:24454/udp"
+    environment:
+      TYPE: "MOHIST"
+      MOHIST_BUILD: "726"
+      GENERIC_PACKS: "http://web.won983212.synology.me/minecraft/server.zip"
+      EULA: "TRUE"
+      INIT_MEMORY: "4G"
+      MAX_MEMORY: "14G"
+      VERSION: "1.20.1"
+      TZ: "Asia/Seoul"
+    restart: unless-stopped
+    volumes:
+      - /mnt/mcdata:/data
