@@ -9,8 +9,12 @@ services:
     environment:
       TYPE: "MOHIST"
       MOHIST_BUILD: "726"
-      GENERIC_PACKS: "http://web.won983212.synology.me/minecraft/server.zip"
+      GENERIC_PACKS: "server-mods,server-plugins"
+      GENERIC_PACKS_PREFIX: "https://web.won983212.synology.me/minecraft/"
+      GENERIC_PACKS_SUFFIX: ".zip"
       EULA: "TRUE"
+      DIFFICULTY: "normal"
+      REMOVE_OLD_MODS: "TRUE"
       INIT_MEMORY: "4G"
       MAX_MEMORY: "14G"
       VERSION: "1.20.1"
