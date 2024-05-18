@@ -1,14 +1,18 @@
 site_name: Naver Playground
 site_url: https://won983212.github.io/mc-naver-playground
+
 theme:
   name: material
   language: en
   font:
     text: NanumBarunGothic
+
 markdown_extensions:
   - admonition
+
 extra_css:
   - https://hangeul.pstatic.net/hangeul_static/css/nanum-barun-gothic.css
+
 nav:
   - 서버 접속 방법: index.md
   - 게임 플레이: game-play.md
