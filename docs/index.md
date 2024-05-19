@@ -11,7 +11,19 @@
 - **게임 버전**: 1.20.1
 - **서버 주소**: 223.130.155.83
 
-## (필수) 서버팩 설치 방법
+## ★ 필수1: 디스코드 서버
+
+디스코드 서버에 들어와주세요. 중요한 내용(서버 재시작, 모드 추가, 투표 등)들은 디스코드 서버에서 공지합니다.
+
+- [디스코드 서버 들어가기](https://discord.gg/Mk8QKBmVqF)
+
+## ★ 필수2: Whitelist 신청
+
+whitelist에 있는 분들만 서버에 접속하실 수 있습니다.
+
+- [whitelist 추가 요청하기](https://forms.gle/MSPu7A1nzNfnoCoe9)
+
+## ★ 필수3: 서버팩 설치
 
 서버에 접속하기 위해서는 모드를 설치해야 합니다. 아래 단계를 따라주세요.
 
@@ -33,7 +45,3 @@
 - Windows: %appdata%/.minecraft
 - Mac OS: ~/Library/Application Support/minecraft
 - Linux/solaris: ~/.minecraft
-
-## Whitelist
-
-whitelist에 있는 분들만 서버에 접속하실 수 있습니다. [여기](https://forms.gle/MSPu7A1nzNfnoCoe9)로 신청주세요.
