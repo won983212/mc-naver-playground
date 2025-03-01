@@ -15,10 +15,5 @@ extra_css:
 
 nav:
   - 서버 접속 방법: index.md
-  - 게임 플레이: game-play.md
-  - 게임 시스템:
-    - 전투: game-play/combat.md
-    - 지역보호 및 파티: game-play/protection.md
-    - 음성 채팅: game-play/voice.md
+  - 음성 채팅: voice.md
   - 쉐이더 사용 방법: shader.md
-  - 설치된 모드 목록: mods.md
