@@ -23,4 +23,4 @@ services:
       SIMULATION_DISTANCE: "16"
     restart: unless-stopped
     volumes:
-      - /mnt/mcdata:/data
+      - ~/data:/data
