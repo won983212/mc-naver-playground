@@ -19,6 +19,8 @@ services:
       MAX_MEMORY: "14G"
       VERSION: "1.20.1"
       TZ: "Asia/Seoul"
+      VIEW_DISTANCE: "16"
+      SIMULATION_DISTANCE: "16"
     restart: unless-stopped
     volumes:
       - /mnt/mcdata:/data
