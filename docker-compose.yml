@@ -7,9 +7,9 @@ services:
       - "25565:25565"
       - "24454:24454/udp"
     environment:
-      TYPE: "MOHIST"
-      MOHIST_BUILD: "923"
-      GENERIC_PACKS: "server-mods,server-plugins"
+      TYPE: "FORGE"
+      FORGE_VERSION: "47.3.22"
+      GENERIC_PACKS: "server-mods"
       GENERIC_PACKS_PREFIX: "https://web.won983212.synology.me/minecraft/"
       GENERIC_PACKS_SUFFIX: ".zip"
       EULA: "TRUE"
