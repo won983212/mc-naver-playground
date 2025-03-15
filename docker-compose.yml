@@ -21,6 +21,7 @@ services:
       TZ: "Asia/Seoul"
       VIEW_DISTANCE: "16"
       SIMULATION_DISTANCE: "16"
+      ENABLE_COMMAND_BLOCK: true
     restart: unless-stopped
     volumes:
       - ~/data:/data
